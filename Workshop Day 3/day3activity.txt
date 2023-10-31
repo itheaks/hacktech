@@ -1,0 +1,40 @@
+Activity:
+Question: Predicting Used Car Prices with Linear Regression
+
+You are given a dataset containing information about used cars, including features
+such as the car's name, year, selling price, kilometers driven, fuel type, seller type,
+transmission type, and owner history. Your goal is to build a linear regression model
+to predict the selling price of these used cars based on the given features.
+
+Here are the tasks you need to perform:
+
+Data Preparation:
+«Load the dataset.
+Perform data cleaning and preprocessing as needed (e.g., handling
+missing values, encoding categorical variables, etc.).
+Feature Selection:
+© Select the relevant features that you believe will influence the selling
+price of a used car. Justify your feature selection choices.
+Linear Regression Model:
+«Build a linear regression model using a suitable library (e..,
+scikitlearn).
+«Split the dataset into a training set and a testing set (e.g., 80% training
+and 20% testing).
+«Train the linear regression model using the training data.
+Model Evaluation:
+Use the trained model to make predictions on the testing data.
+«Evaluate the model's performance using appropriate regression
+metrics (e.g, Mean Absolute Error, Root Mean Squared Error,
+Rsquared).
+«Visualize the actual vs. predicted selling prices.
+Insights and Analysis:
+«Interpret the coefficients of the linear regression model to understand
+the impact of each feature on the selling price.
+Discuss any interesting findings or insights from your analysis.
+Optional Enhancement (Bonus):
+Try different variations of linear regression (e.g., Ridge, Lasso) and
+compare their performance.
+«Perform feature engineering to create new features that might improve
+model performance.
+«Experiment with different train-test split ratios or cross-validation
+techniques.
